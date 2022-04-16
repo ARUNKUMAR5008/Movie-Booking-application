@@ -9,10 +9,15 @@
 .left {
       width: 76%;
       cursor: pointer;
+      margin-top: 50px;
 }
   
 .right {
       width: 24%;
+      display: flex;
+      justify-content: center;
+      margin-right: 70px;
+      margin-top: 50px;
 }
   
 .flex-container {

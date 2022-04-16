@@ -3,6 +3,7 @@ import './Home.css';
 import Header from '../../common/header/Header';
 import GridUpcoming from "./GridUpcoming";
 import GridReleased from "./GridReleased";
+import Filter from './Filter.js'
 
 class Home extends React.Component {
 
@@ -14,7 +15,7 @@ class Home extends React.Component {
                 <GridUpcoming />
                 <div className="flex-container">
                     <div className="left"><GridReleased /></div>
-                    <div className="right"></div>
+                    <div className="right"><div><Filter /></div></div>
                     
                 </div>
             </div>

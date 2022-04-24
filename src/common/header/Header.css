@@ -7,6 +7,30 @@
 .logoImg {
         background-color: #ff7f7f;
         height: 35px;
-        animation: rotation 8s infinite linear;
-        align-items: left;
+        animation-name: example;
+        animation-duration: 8s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.LowerHeader {
+  background-color: #ff9999;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.bookshow-button {
+  float: right;
+  margin-right: 8px;
 }
